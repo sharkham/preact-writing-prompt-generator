@@ -1,6 +1,7 @@
 import { h } from 'preact';
 import style from './style.css';
-import Generator from '../components/generator';
+import Generator from '../../components/generator';
+import {words} from '../../assets/words'
 
 const Home = () => (
 	<div class={style.home}>

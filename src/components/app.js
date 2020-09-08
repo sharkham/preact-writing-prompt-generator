@@ -9,7 +9,6 @@ import Home from '../routes/home';
 const App = () => (
 	<div id="app">
 		<Header />
-    <h1>Prompt Generator</h1>
 		<Router>
 			<Home path="/" />
 		</Router>

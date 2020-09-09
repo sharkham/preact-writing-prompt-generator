@@ -6,8 +6,8 @@ const Header = () => (
 	<header class={style.header}>
 		<h1>Prompt Generator</h1>
 		<nav>
-			<Link activeClassName={style.active} href="/">Home</Link>
-
+			<Link activeClassName={style.active} href="/">Words</Link>
+			<Link activeClassName={style.active} href="/nautical">Nautical Words</Link>
 		</nav>
 	</header>
 );

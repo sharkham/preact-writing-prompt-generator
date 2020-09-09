@@ -38,6 +38,5 @@
       "<rootDir>/tests/__mocks__/browserMocks.js",
       "<rootDir>/tests/__mocks__/setupTests.js"
     ]
-  },
-  "plugins": ["@babel/plugin-transform-react-jsx"]
+  }
 }

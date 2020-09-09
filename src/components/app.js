@@ -9,14 +9,14 @@ import Nautical from '../routes/nautical'
 import About from '../routes/about'
 
 const App = () => (
-	<div id="app">
-		<Header />
-		<Router>
-			<Home path="/" />
+  <div id="app">
+    <Header />
+    <Router>
+      <Home path="/" />
       <Nautical path="/nautical"/>
       <About path="/about"/>
-		</Router>
-	</div>
+    </Router>
+  </div>
 )
 
 export default App;

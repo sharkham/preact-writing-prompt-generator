@@ -1,22 +1,27 @@
-# preact-writing-prompt-generator
+# Preact Writing Prompt Generator
 
-## CLI Commands
+Stuck on what to write? Try this simple writing prompt generator!
 
-``` bash
-# install dependencies
-npm install
+Preact Writing Prompt Generator is a single page Preact app where users can generate writing prompts from multiple lists of words (currently a general set of random words or a set of nautical terms).
 
-# serve with hot reload at localhost:8080
-npm run dev
+This is the Preact version of my React prompt generator, which can be found [here](https://github.com/sharkham/prompt-generator) and tried out [here](https://promptgenerator.netlify.app/).
 
-# build for production with minification
-npm run build
 
-# test the production build locally
-npm run serve
+## Installation
 
-# run tests with jest and enzyme
-npm run test
-```
+1. Fork the repository
+2. Clone the files to your computer
+3. Navigate to `/preact-writing-prompt-generator` in your terminal
+4. Run `npm install`
+5. Run `npm run dev`. This will generate a link to open the development version of the app!
 
-For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
+
+## Usage Example
+
+![Screenshot of the app's main page](src/assets/preact-writing-prompt-generator.png)
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
